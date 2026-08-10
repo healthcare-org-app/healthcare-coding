@@ -1,7 +1,7 @@
 services:
   coding-service:
     build: .
-    container_name: ${NAME_UNDERSCORE}
+    container_name: coding_service
     depends_on:
       postgres:
         condition: service_healthy
